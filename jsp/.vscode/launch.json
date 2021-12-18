@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "type": "aws-sam",
+            "request": "direct-invoke",
+            "name": "jsp:demo.src.main.java.com.example.demo.employeeDB::registerEmployee (java8)",
+            "invokeTarget": {
+                "target": "code",
+                "projectRoot": "${workspaceFolder}/demo",
+                "lambdaHandler": "demo.src.main.java.com.example.demo.employeeDB::registerEmployee"
+            },
+            "lambda": {
+                "runtime": "java8",
+                "payload": {},
+                "environmentVariables": {}
+            }
+        }
+    ]
+}
